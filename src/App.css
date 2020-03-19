@@ -49,13 +49,13 @@ body {
 }
 
 .page-header {
-  background-image: url(/media/bg.webp);
+  background-image: url(./bg.webp);
+  height: 977px;
   margin-top: -60px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
 }
 .page-header .header-name-text {
   width: 100%;
@@ -108,4 +108,8 @@ a:hover {
 .services-background {
   padding: 50px 0;
   background-color: #337ab7;
+}
+
+.image-container {
+  height: 100%;
 }
